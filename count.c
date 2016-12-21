@@ -17,5 +17,5 @@ printf("\nEnter the digit");
 scanf("%d",&n);
 count=dig(n);
 
-printf("\nthe added digit is %d",a);
+printf("\nthe count no of digit is %d",count);
 }
