@@ -4,9 +4,9 @@ long int fact(int n);
 void main()
 {
 int n;
-printf("\nEnter the number");
+
 scanf("%d",&n);
-printf("\nFactorial of %d = %ld",n,fact(n));
+printf("\n%ld",fact(n));
 }
 long int fact(int n)
 {
