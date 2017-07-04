@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class DagSum {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scr=new Scanner(System.in);
+		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the Dag");
 		int sum=0;
-		String str=scr.nextLine();
+		String str=s.nextLine();
 		char c=(char)(92);
 		str=str.replace(c, ',');
 		
@@ -28,7 +28,7 @@ public class DagSum {
 		sum+=max;
 	
 	}
-	scr.close();
+	s.close();
 System.out.println(sum);
 	}
 
